@@ -25,6 +25,7 @@ import android.view.View;
 import android.widget.EditText;
 import com.android.settings.CustomEditTextPreference;
 import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settingslib.display.DisplayDensityUtils;
 
 public class DensityPreference extends CustomEditTextPreference {
@@ -60,6 +61,7 @@ public class DensityPreference extends CustomEditTextPreference {
             editText.setText(getCurrentSwDp() + "");
             int textLength = editText.getText().length();
             editText.setSelection(textLength);
+            Utils.setEditTextCursorPosition(editText);
         }
     }
 

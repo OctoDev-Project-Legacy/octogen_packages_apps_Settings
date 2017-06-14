@@ -40,6 +40,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.android.settings.R;
+import com.android.settings.Utils;
 
 public class SimPreferenceDialog extends Activity {
 
@@ -98,16 +99,24 @@ public class SimPreferenceDialog extends Activity {
 
         EditText nameText = (EditText)mDialogLayout.findViewById(R.id.sim_name);
         nameText.setText(savedInstanceState.getString(SIM_NAME));
+<<<<<<< HEAD
         int textLength = nameText.getText().length();
         nameText.setSelection(textLength);
+=======
+        Utils.setEditTextCursorPosition(nameText);
+>>>>>>> 361df46834... Settings: Correctly align cursor in Settings
     }
 
     private void createEditDialog(Bundle bundle) {
         final Resources res = mContext.getResources();
         EditText nameText = (EditText)mDialogLayout.findViewById(R.id.sim_name);
         nameText.setText(mSubInfoRecord.getDisplayName());
+<<<<<<< HEAD
         int textLength = nameText.getText().length();
         nameText.setSelection(textLength);
+=======
+        Utils.setEditTextCursorPosition(nameText);
+>>>>>>> 361df46834... Settings: Correctly align cursor in Settings
         final Spinner tintSpinner = (Spinner) mDialogLayout.findViewById(R.id.spinner);
         SelectColorAdapter adapter = new SelectColorAdapter(mContext,
                 R.layout.settings_color_picker_item, mColorStrings);
@@ -157,8 +166,12 @@ public class SimPreferenceDialog extends Activity {
             @Override
             public void onClick(DialogInterface dialog, int whichButton) {
                 final EditText nameText = (EditText)mDialogLayout.findViewById(R.id.sim_name);
+<<<<<<< HEAD
                 int textLength = nameText.getText().length();
                 nameText.setSelection(textLength);
+=======
+                Utils.setEditTextCursorPosition(nameText);
+>>>>>>> 361df46834... Settings: Correctly align cursor in Settings
                 String displayName = nameText.getText().toString();
                 int subId = mSubInfoRecord.getSubscriptionId();
                 mSubInfoRecord.setDisplayName(displayName);
