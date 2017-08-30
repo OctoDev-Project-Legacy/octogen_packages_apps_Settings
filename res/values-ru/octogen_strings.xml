@@ -23,4 +23,6 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Play Маркет</string>
 
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
 </resources>
