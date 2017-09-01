@@ -17,6 +17,10 @@
     <string name="build_date">Octogen OS build date</string>
     <string name="build_date_default">2016-01-01-0000</string>
 
+    <!-- Octogen Settings -->
+    <string name="octogen_settings_title">Personalization</string>
+    <string name="octogen_settings_summary">Additional settings</string>
+
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>

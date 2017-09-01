@@ -3001,7 +3001,7 @@
         <activity android:name=".Settings$SystemDashboardActivity"
                   android:label="@string/header_category_system"
                   android:icon="@drawable/ic_settings_about">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3016,7 +3016,7 @@
                   android:label="@string/page_tab_title_support"
                   android:icon="@drawable/ic_help"
                   android:enabled="@bool/config_support_enabled">
-            <intent-filter android:priority="-2">
+            <intent-filter android:priority="-3">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3106,5 +3106,18 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <activity android:name=".Settings$OctogenSettingsActivity"
+                  android:label="@string/octogen_settings_title"
+                  android:icon="@drawable/ic_settings_octogen">
+            <intent-filter android:priority="-1">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.octogen.settings.OctogenSettings"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/octogen_settings_summary"/>
+        </activity>
     </application>
 </manifest>
