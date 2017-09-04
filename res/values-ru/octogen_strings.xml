@@ -17,7 +17,7 @@
     <string name="build_date">Дата сборки Octogen OS</string>
 
     <!-- Octogen Settings -->
-    <string name="octogen_settings_title">Персонализация</string>
+    <string name="octogen_settings_title">Octogen OS</string>
     <string name="octogen_settings_summary">Дополнительные настройки</string>
 
     <!-- Development Settings -->

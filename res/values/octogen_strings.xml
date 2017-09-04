@@ -18,7 +18,7 @@
     <string name="build_date_default">2016-01-01-0000</string>
 
     <!-- Octogen Settings -->
-    <string name="octogen_settings_title">Personalization</string>
+    <string name="octogen_settings_title">Octogen OS</string>
     <string name="octogen_settings_summary">Additional settings</string>
 
     <!-- Development Settings -->
