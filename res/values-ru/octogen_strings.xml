@@ -27,4 +27,8 @@
 
     <!-- Phone info shortcut -->
     <string name="device_info_title">Информация о телефоне</string>
+
+    <string name="dashboard_conditions_title">Уведомления в главном меню</string>
+    <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+    <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
 </resources>
