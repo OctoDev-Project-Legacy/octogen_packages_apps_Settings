@@ -3105,6 +3105,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.octogen.settings.fragments.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$OctogenSettingsActivity"
                   android:label="@string/octogen_settings_title"
