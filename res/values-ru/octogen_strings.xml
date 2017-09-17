@@ -31,4 +31,13 @@
     <string name="dashboard_conditions_title">Уведомления в главном меню</string>
     <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
     <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Индикатор уведомлений</string>
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="app_notifications_info_desc">Нажмите на название канала для редактирования индикации</string>
+    <string name="value_equals_default">авто</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 </resources>
